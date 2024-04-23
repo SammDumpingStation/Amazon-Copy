@@ -1,0 +1,19 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  padding-top: 75px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
